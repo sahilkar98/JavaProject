@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 
 public class Addition {
 
-	public static int addNumbers(int firstNum, int secondNum) {
+	public int addNumbers(int firstNum, int secondNum) {
 
 		try {
 			int result = firstNum + secondNum;

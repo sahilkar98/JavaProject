@@ -13,7 +13,8 @@ public class Result {
 			System.out.println("Please enter 2nd number");
 			int secondNum = sc.nextInt();
 
-			Addition.addNumbers(firstNum, secondNum);
+			Addition add = new Addition();
+			add.addNumbers(firstNum, secondNum); 
 		} catch (InputMismatchException e) {
 			System.out.println("Please enter valid numbers for addition");
 		}
